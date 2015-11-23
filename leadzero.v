@@ -18,7 +18,7 @@ reg isturbo,next_stop,stop;
 reg [WORD:0]countword;
 reg [WORD:0]val8,val4,val16;
 reg out;
-
+reg bug;
 
 always @(posedge CLK or negedge rst_n)
 begin
